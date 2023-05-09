@@ -1,0 +1,30 @@
+.character-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-container .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: ease 0.2s;
+    width: 240px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.character-container .card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.character-container .card-img {
+    width: 250px;
+    align-items: center
+}
+
+.character-container .btn {
+    margin-top: 10px;
+    width: 100%;
+}
